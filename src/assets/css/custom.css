@@ -1,0 +1,293 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+ul,ol{
+  list-style-type: none;
+}
+img{
+  vertical-align: middle;
+  border: 0;
+}
+
+/* ================================ServiceSection Part css======================================== */
+
+#cardArea{
+  background-color: #040940;
+  position: relative;
+  padding: 112px 0 118px;
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cardSingleItem p{
+  font-size: 16px;
+  color: #505b6d;
+  line-height: 26px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.cardSingle .cardSingleItem{
+  padding: 60px 30px 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: .3s;
+  box-shadow: 0px 0px 25px rgba(255,255,255,.3);
+  cursor: pointer;
+}
+.cardSingle .cardSingleItem .icon{
+  position: relative;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 50px;
+  line-height: 75px;
+  border-radius: 50%;
+  background-color: #f03858;
+  color: #fff;
+  font-size: 40px;
+  z-index: 9;
+}
+.cardSingle .cardSingleItem.Two .icon{
+  background-color: #693cb8;
+}
+.cardSingle .cardSingleItem.Three .icon{
+  background-color: #4dd1ed;
+}
+.cardSingle .cardSingleItem.Four .icon{
+  background-color: #ecae19;
+}
+.cardSingle .cardSingleItem h3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+}
+.cardSingle .cardSingleItem .icon::before{
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  content: '';
+  top: -27px;
+  left: -28px;
+  border-radius: 50%;
+  background-color: rgba(240,56,88,.2);
+}
+.cardSingle .cardSingleItem .icon::after{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  content: '';
+  top: -14px;
+  left: -15px;
+  border-radius: 50%;
+  background-color: rgba(240,56,88,.5);
+  z-index: -1;
+}
+.cardSingle .cardSingleItem.Two .icon::before{
+  background-color: rgba(105,60,184,.2);
+}
+.cardSingle .cardSingleItem.Two .icon::after{
+  background-color: rgba(105,60,184,.5);
+}
+.cardSingle .cardSingleItem.Three .icon::before{
+  background-color: rgba(77,288,237,.2);
+}
+.cardSingle .cardSingleItem.Three .icon::after{
+  background-color: rgba(77,288,237,.5);
+}
+.cardSingle .cardSingleItem.Four .icon::before{
+  background-color: rgba(236,174,25,.2);
+}
+.cardSingle .cardSingleItem.Four .icon::after{
+  background-color: rgba(236,174,25,.5);
+}
+.cardSingle .hoverShape{
+  position: absolute;
+  width: 20px;
+  height: auto;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355,1) 0s;
+  transform: rotate(260deg);
+}
+.cardSingle .hoverShapeOne{
+  left: 30px;
+  top:30px;
+}
+.cardSingle .hoverShapeTwo{
+  right:35%;
+  top:40px;
+}
+.cardSingle .hoverShapeThree{
+  right: 30px;
+  bottom: 40%;
+}
+.cardSingle .hoverShapeFour{
+  right: 35%;
+  bottom:40px;
+}
+.cardSingle .hoverShapeFive{
+  left: 30px;
+  bottom: 35%;
+}
+.cardSingle:hover .hoverShape{
+  opacity: 1;
+  transform:rotate(100deg)
+}
+.cardSingle:hover .hoverShapeOne{
+  left:-25px;
+  top:25px
+}
+.cardSingle:hover .hoverShapeTwo{
+  right:35%;
+  top:-30px;
+}
+.cardSingle:hover .hoverShapeThree{
+  right:-20px;
+  bottom:40%
+}
+.cardSingle:hover .hoverShapeFour{
+  right:35%;
+  bottom: -30px;
+}
+.cardSingle:hover .hoverShapeFive{
+  left:-25px;
+  bottom:35%;
+}
+.cardSingle .cardSingleItem:hover{
+  background-color: #d22d4a;
+}
+.cardSingle .cardSingleItem.Two:hover{
+  background-color: #693cb8;
+}
+.cardSingle .cardSingleItem.Three:hover .icon{
+  color:#693cb8;
+}
+.cardSingle .cardSingleItem.Three:hover{
+  background-color: #3fb3cc;
+}
+.cardSingle .cardSingleItem.Three:hover .icon{
+  color: #4dd1ed;
+}
+.cardSingle .cardSingleItem.Four:hover{
+  background-color: #ed9626;
+}
+.cardSingle .cardSingleItem.Four:hover .icon{
+  color: #ecae19;
+}
+.cardSingle .cardSingleItem:hover .icon::before{
+  background-color: rgba(255,255, 255, 0.2);
+}
+.cardSingle .cardSingleItem:hover .icon::after{
+  background-color: rgba(255,255, 255, 0.5);
+}
+.cardSingle .cardSingleItem:hover h3,
+.cardSingle .cardSingleItem:hover p{
+  color: #fff!important;
+}
+.cardSingle .cardSingleItem:hover .icon{
+  background-color: #fff;
+  color: #f03858;
+}
+.cardSingle .cardSingleItem.Two:hover .icon{
+  background-color: #fff;
+  color: #693cb8;
+}
+.loadMoreBtn a{
+  background-image: linear-gradient(90deg, rgb(174, 14, 233)0%, rgb(46,25,167) 100%);
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.20);
+  display: inline-block;
+  border-radius: 25px;
+  margin-top: 50px;
+  padding: 14px 36px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-size: 100% auto;
+}
+.loadMoreBtn a:hover{
+  background-size: 200% auto;
+  text-decoration: none;
+}
+/* ===========================================ServiceSectionTwo part css============================= */
+#Services{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  margin: 50px  0;
+}
+.Title{
+  margin-top: 26px;
+  margin-bottom: 40px;
+}
+.ServiceTitle h2 span{
+  color: #3c44a9;
+}
+.ServiceTitle h2{
+  margin-top: -10px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #333;
+}
+.SerBox{
+  margin-top: 75px;
+  padding-bottom: 30px;
+  padding: 0 60px;
+  min-height: 198px;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all .4s ease-in-out;
+  box-shadow: 0 0 25px 0 rgba(20,27,202,.17);
+}
+.SerBox .Icons{
+  transform: translateY(-50%);
+  margin-bottom: 0;
+}
+.SerBox h4{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  color: #3c44a9;
+  margin-top: -10px;
+}
+.SerBox p{
+  color: #61648e;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.SerBox:hover{
+  box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+  cursor: pointer;
+  background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%);
+}
+.SerBox:hover h4,
+.SerBox:hover p{
+  color: #fff;
+}
+.ServicesBox .Box .SerBox:hover{
+  background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%);
+}
+.ServicesBoxThree .Box .SerBox:hover{
+  background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%);
+}
+.ServicesBoxFour .Box .SerBox:hover{
+  background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%);
+}
+.ServicesBoxFive .Box .SerBox:hover{
+  background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%);
+}
+.ServicesBoxSix .Box .SerBox:hover{
+  background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%);
+}
