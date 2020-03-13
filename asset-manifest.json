@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/all-in-one/static/css/main.c7823b49.chunk.css",
-    "main.js": "/all-in-one/static/js/main.6446f0c8.chunk.js",
-    "main.js.map": "/all-in-one/static/js/main.6446f0c8.chunk.js.map",
-    "runtime-main.js": "/all-in-one/static/js/runtime-main.085f493b.js",
-    "runtime-main.js.map": "/all-in-one/static/js/runtime-main.085f493b.js.map",
-    "static/css/2.89f067aa.chunk.css": "/all-in-one/static/css/2.89f067aa.chunk.css",
-    "static/js/2.f696809c.chunk.js": "/all-in-one/static/js/2.f696809c.chunk.js",
-    "static/js/2.f696809c.chunk.js.map": "/all-in-one/static/js/2.f696809c.chunk.js.map",
-    "index.html": "/all-in-one/index.html",
-    "precache-manifest.9a2d4cf6a61d16be36aedbf129308d65.js": "/all-in-one/precache-manifest.9a2d4cf6a61d16be36aedbf129308d65.js",
-    "service-worker.js": "/all-in-one/service-worker.js",
-    "static/css/2.89f067aa.chunk.css.map": "/all-in-one/static/css/2.89f067aa.chunk.css.map",
-    "static/css/main.c7823b49.chunk.css.map": "/all-in-one/static/css/main.c7823b49.chunk.css.map",
-    "static/js/2.f696809c.chunk.js.LICENSE.txt": "/all-in-one/static/js/2.f696809c.chunk.js.LICENSE.txt",
-    "static/media/shape-five.svg": "/all-in-one/static/media/shape-five.a2d7e317.svg",
-    "static/media/shape-four.svg": "/all-in-one/static/media/shape-four.071e7a26.svg",
-    "static/media/shape-one.svg": "/all-in-one/static/media/shape-one.37afffde.svg",
-    "static/media/shape-three.svg": "/all-in-one/static/media/shape-three.f78ac66a.svg",
-    "static/media/shape-two.svg": "/all-in-one/static/media/shape-two.ea0e0c09.svg"
+    "main.css": "/Simple_Task_With_React.js/static/css/main.c7823b49.chunk.css",
+    "main.js": "/Simple_Task_With_React.js/static/js/main.0304555c.chunk.js",
+    "main.js.map": "/Simple_Task_With_React.js/static/js/main.0304555c.chunk.js.map",
+    "runtime-main.js": "/Simple_Task_With_React.js/static/js/runtime-main.4d77080f.js",
+    "runtime-main.js.map": "/Simple_Task_With_React.js/static/js/runtime-main.4d77080f.js.map",
+    "static/css/2.89f067aa.chunk.css": "/Simple_Task_With_React.js/static/css/2.89f067aa.chunk.css",
+    "static/js/2.f696809c.chunk.js": "/Simple_Task_With_React.js/static/js/2.f696809c.chunk.js",
+    "static/js/2.f696809c.chunk.js.map": "/Simple_Task_With_React.js/static/js/2.f696809c.chunk.js.map",
+    "index.html": "/Simple_Task_With_React.js/index.html",
+    "precache-manifest.3bf252cf8f2e6f20522f46257b33d30d.js": "/Simple_Task_With_React.js/precache-manifest.3bf252cf8f2e6f20522f46257b33d30d.js",
+    "service-worker.js": "/Simple_Task_With_React.js/service-worker.js",
+    "static/css/2.89f067aa.chunk.css.map": "/Simple_Task_With_React.js/static/css/2.89f067aa.chunk.css.map",
+    "static/css/main.c7823b49.chunk.css.map": "/Simple_Task_With_React.js/static/css/main.c7823b49.chunk.css.map",
+    "static/js/2.f696809c.chunk.js.LICENSE.txt": "/Simple_Task_With_React.js/static/js/2.f696809c.chunk.js.LICENSE.txt",
+    "static/media/shape-five.svg": "/Simple_Task_With_React.js/static/media/shape-five.a2d7e317.svg",
+    "static/media/shape-four.svg": "/Simple_Task_With_React.js/static/media/shape-four.071e7a26.svg",
+    "static/media/shape-one.svg": "/Simple_Task_With_React.js/static/media/shape-one.37afffde.svg",
+    "static/media/shape-three.svg": "/Simple_Task_With_React.js/static/media/shape-three.f78ac66a.svg",
+    "static/media/shape-two.svg": "/Simple_Task_With_React.js/static/media/shape-two.ea0e0c09.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.085f493b.js",
+    "static/js/runtime-main.4d77080f.js",
     "static/css/2.89f067aa.chunk.css",
     "static/js/2.f696809c.chunk.js",
     "static/css/main.c7823b49.chunk.css",
-    "static/js/main.6446f0c8.chunk.js"
+    "static/js/main.0304555c.chunk.js"
   ]
 }
