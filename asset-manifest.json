@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Simple_Task_With_React.js/static/css/main.c7823b49.chunk.css",
-    "main.js": "/Simple_Task_With_React.js/static/js/main.0304555c.chunk.js",
-    "main.js.map": "/Simple_Task_With_React.js/static/js/main.0304555c.chunk.js.map",
+    "main.css": "/Simple_Task_With_React.js/static/css/main.e5cf0571.chunk.css",
+    "main.js": "/Simple_Task_With_React.js/static/js/main.02e20e58.chunk.js",
+    "main.js.map": "/Simple_Task_With_React.js/static/js/main.02e20e58.chunk.js.map",
     "runtime-main.js": "/Simple_Task_With_React.js/static/js/runtime-main.4d77080f.js",
     "runtime-main.js.map": "/Simple_Task_With_React.js/static/js/runtime-main.4d77080f.js.map",
     "static/css/2.89f067aa.chunk.css": "/Simple_Task_With_React.js/static/css/2.89f067aa.chunk.css",
-    "static/js/2.f696809c.chunk.js": "/Simple_Task_With_React.js/static/js/2.f696809c.chunk.js",
-    "static/js/2.f696809c.chunk.js.map": "/Simple_Task_With_React.js/static/js/2.f696809c.chunk.js.map",
+    "static/js/2.a9aaaa08.chunk.js": "/Simple_Task_With_React.js/static/js/2.a9aaaa08.chunk.js",
+    "static/js/2.a9aaaa08.chunk.js.map": "/Simple_Task_With_React.js/static/js/2.a9aaaa08.chunk.js.map",
     "index.html": "/Simple_Task_With_React.js/index.html",
-    "precache-manifest.3bf252cf8f2e6f20522f46257b33d30d.js": "/Simple_Task_With_React.js/precache-manifest.3bf252cf8f2e6f20522f46257b33d30d.js",
+    "precache-manifest.dc4107f2ccf27131025c7a20b2079415.js": "/Simple_Task_With_React.js/precache-manifest.dc4107f2ccf27131025c7a20b2079415.js",
     "service-worker.js": "/Simple_Task_With_React.js/service-worker.js",
     "static/css/2.89f067aa.chunk.css.map": "/Simple_Task_With_React.js/static/css/2.89f067aa.chunk.css.map",
-    "static/css/main.c7823b49.chunk.css.map": "/Simple_Task_With_React.js/static/css/main.c7823b49.chunk.css.map",
-    "static/js/2.f696809c.chunk.js.LICENSE.txt": "/Simple_Task_With_React.js/static/js/2.f696809c.chunk.js.LICENSE.txt",
+    "static/css/main.e5cf0571.chunk.css.map": "/Simple_Task_With_React.js/static/css/main.e5cf0571.chunk.css.map",
+    "static/js/2.a9aaaa08.chunk.js.LICENSE.txt": "/Simple_Task_With_React.js/static/js/2.a9aaaa08.chunk.js.LICENSE.txt",
+    "static/media/custom.css": "/Simple_Task_With_React.js/static/media/card3.dce0f080.jpg",
     "static/media/shape-five.svg": "/Simple_Task_With_React.js/static/media/shape-five.a2d7e317.svg",
     "static/media/shape-four.svg": "/Simple_Task_With_React.js/static/media/shape-four.071e7a26.svg",
     "static/media/shape-one.svg": "/Simple_Task_With_React.js/static/media/shape-one.37afffde.svg",
@@ -23,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.4d77080f.js",
     "static/css/2.89f067aa.chunk.css",
-    "static/js/2.f696809c.chunk.js",
-    "static/css/main.c7823b49.chunk.css",
-    "static/js/main.0304555c.chunk.js"
+    "static/js/2.a9aaaa08.chunk.js",
+    "static/css/main.e5cf0571.chunk.css",
+    "static/js/main.02e20e58.chunk.js"
   ]
 }
