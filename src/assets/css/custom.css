@@ -291,3 +291,112 @@ img{
 .ServicesBoxSix .Box .SerBox:hover{
   background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%);
 }
+
+/* ======================================Card part css======================================== */
+#Card{
+  background: #222;
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+.Card{
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 5px 5px 15px rgba(0,0,0,.9);
+  text-align: center;
+  transition: .5s ease;
+  cursor: pointer;
+}
+.CardImage{
+  background: url("../images/card1.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 0;
+}
+.CardImageTwo{
+  background: url("../images/card2.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 0;
+}
+.DateTwo{
+  color: #FFA500!important;
+}
+.CatStatsTwo{
+  background: rgb(255,165,0)!important;
+}
+.CatStatsTwo .BorderTwo{
+  border-left: 1px solid rgb(255,140,0)!important;
+  border-right: 1px solid rgb(255,140,0)!important;
+}
+.CardImageThree{
+  background: url("../images/card3.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 0;
+}
+.DateThree{
+  color: #32CD32!important;
+}
+.CardStatsThree{
+  background: rgb(50,205,50)!important;
+}
+.CardStatsThree .BorderThree{
+  border-left: 1px solid rgb(0,255,0)!important;
+  border-right: 1px solid rgb(0,255,0)!important;
+}
+.CardText{
+  padding: 25px;
+}
+.CardText .Date{
+  color: rgb(255,7,110);
+  font-size: 14px;
+}
+.CardText p{
+  color: grey;
+  font-size: 16px;
+  font-weight: 400;
+}
+.CardText h2{
+  font-size: 28px;
+}
+.CardStats{
+  background: rgb(255,7,110);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.Sate{
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+.Sate .Type{
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.Sate .Value{
+  font-size: 22px;
+  font-weight: 500;
+}
+.CardStats .Border{
+  border-left: 1px solid rgb(172,26,87);
+  border-right: 1px solid rgb(172,26,87);
+}
+.CardStats .Value sup{
+  font-size: 12px;
+}
+.Card:hover{
+  transform: scale(0.9);
+  box-shadow: 5px 5px 15px rgba(0,0,0,.6);
+}
